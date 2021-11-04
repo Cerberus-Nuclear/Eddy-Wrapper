@@ -4,11 +4,11 @@ with open("README.md", "r") as readme:
     long_description = readme.read()
 
 setuptools.setup(
-    name="eddy_wrapper", 
+    name="eddy-mc-wrapper",
     version="0.1.0",
     author="Cerberus Nuclear",
     author_email="nuclear@cerberusnuclear.com",
-    description="Eddy, the MCNP and SCALE HTML output converter",
+    description="User Interface wrapper for Eddy, the MCNP and SCALE HTML output converter",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Cerberus-Nuclear/Eddy-Wrapper",
