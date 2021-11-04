@@ -48,9 +48,10 @@ def main(filename=None, scaling_factor=None):
     """
 
     filename, scaling_factor = get_args(filename, scaling_factor)
+    print(f"Eddy-Wrapper arguments gathered, sending {filename} to Eddy-Core with scaling factor {scaling_factor}.\n")
     eddy.main(filename, scaling_factor)
 
-    print(f"Eddy wrapper complete, {filename} sent to Eddy-Core with scaling factor {scaling_factor}.\n")
+
 
 
 def get_args(filename=None, scaling_factor=None):
