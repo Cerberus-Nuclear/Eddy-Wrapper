@@ -7,10 +7,10 @@ name: Continuous Integration - push to master
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
