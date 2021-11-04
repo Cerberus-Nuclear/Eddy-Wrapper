@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Cerberus-Nuclear/Eddy-Wrapper",
-    install_requires=['Jinja2', 'importlib-resources', 'eddy-mc-core'],
+    install_requires=['importlib-resources', 'eddy-mc-core'],
     classifiers=[
         "Programming Language :: Python :: 3",
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
