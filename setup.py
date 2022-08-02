@@ -5,7 +5,7 @@ with open("README.md", "r") as readme:
 
 setuptools.setup(
     name="eddy-mc-wrapper",
-    version="0.1.0",
+    version="0.1.1",
     author="Cerberus Nuclear",
     author_email="nuclear@cerberusnuclear.com",
     description="User Interface wrapper for Eddy, the MCNP and SCALE HTML output converter",
